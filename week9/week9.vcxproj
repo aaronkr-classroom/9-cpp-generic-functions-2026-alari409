@@ -18,6 +18,19 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="grade.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="main_SI.cpp" />
+    <ClCompile Include="median.cpp" />
+    <ClCompile Include="Student_info.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="grade.h" />
+    <ClInclude Include="median.h" />
+    <ClInclude Include="my_algs_T.h" />
+    <ClInclude Include="Student_info.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>18.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -126,13 +139,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClInclude Include="median_T.h" />
-    <ClInclude Include="my_lags__T.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\..\5주차\5-cpp-containers-2026-alari409\week5\median.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
