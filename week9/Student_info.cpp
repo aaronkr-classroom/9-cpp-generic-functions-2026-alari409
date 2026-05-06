@@ -7,7 +7,7 @@
 using namespace std;
 
 // 빈 생성자 
-Student_info::Student_info() : midterm(0), final(0) { }
+Student_info::Student_info() : midterm(0), final(0) {}
 
 // cin을 읽어 Student_info를 초기화
 Student_info::Student_info(istream& is) { read(is); }
